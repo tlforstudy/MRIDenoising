@@ -29,3 +29,4 @@ datacropper.py filter=lfs diff=lfs merge=lfs -text
 limit_test.py filter=lfs diff=lfs merge=lfs -text
 measure1.py filter=lfs diff=lfs merge=lfs -text
 *.py filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
