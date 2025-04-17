@@ -1,4 +1,0 @@
-Noise Proportion: 0.1 - Mean: 0 - Standard Deviation: 1
-Noisy SSIM:0.39410603003171035
-CBAM Unet with upsampling Denoised SSIM:0.9373768802810662
-CBAM Unet with transpose Denoised SSIM:0.9062279603202056
