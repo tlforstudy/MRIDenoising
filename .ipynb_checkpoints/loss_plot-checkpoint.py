@@ -1,23 +1,3 @@
-import json
-import matplotlib.pyplot as plt
-
-
-with open('./results/training_history.json', 'r') as f:
-    history = json.load(f)
-
-
-train_loss = history["loss"]
-val_loss = history["val_loss"]
-epochs = list(range(1, len(train_loss) + 1)) 
-
-
-
-plt.figure(figsize=(10, 6))
-plt.plot(epochs, train_loss, "b-", label="Training Loss")
-plt.plot(epochs, val_loss, "r-", label="Validation Loss")
-plt.title("Training & Validation Loss")
-plt.xlabel("Epoch")
-plt.ylabel("Loss (DSSIM)")
-plt.legend()
-plt.savefig("./results/loss_curve.png", dpi=300)
-plt.show()
+version https://git-lfs.github.com/spec/v1
+oid sha256:92a6165c7b3532a4f365d592a6690c7a3ec52659535fdf349988cf7204d56745
+size 543
