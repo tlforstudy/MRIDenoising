@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2ec7fdceaa990c43e98029829a4f8ddfb09255cb86e7e4bef24bb3a6bf15556e
-size 2316
+The training and experiments were conducted using the IXI T1-weighted dataset, which is available at https://brain-development.org/ixi-dataset/, and the T2-weighted dataset from the web page was also used in the cross-dataset tests. The data is first centrally cropped through the crop file, and then the effective slice index is extracted through the extract file. The data reader is based on the finally obtained npz file.
